@@ -15,6 +15,8 @@ if "results" not in data:
 
 result = data["results"][0]
 city_name = result["name"]
+country = result["country"]
+
 
 latitude = result["latitude"]
 longitude = result["longitude"]
@@ -40,8 +42,17 @@ with open("weather_report.txt", "w") as file:
     file.write("Weather Report\n")
     file.write("----------------\n")
     file.write(f"City: {city_name}\n")
+    file.write(f"Country: {country}\n")
     file.write(f"Temperature: {temperature} °C\n")
     file.write(f"Humidity: {humidity} %\n")
     file.write(f"Wind Speed: {wind_speed} km/h\n")
 
 print("File saves successfully!")
+
+print("\nWeather Report")
+print("----------------")
+print(f"City: {city_name}")
+print(f"Country: {country}")
+print(f"Temperature: {temperature} °C")
+print(f"Humidity: {humidity} %")
+print(f"Wind Speed: {wind_speed} km/h")

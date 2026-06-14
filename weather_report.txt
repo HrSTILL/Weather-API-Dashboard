@@ -1,6 +1,7 @@
 Weather Report
 ----------------
-City: London
-Temperature: 20.1 °C
-Humidity: 46 %
-Wind Speed: 6.8 km/h
+City: Sofia
+Country: Bulgaria
+Temperature: 21.0 °C
+Humidity: 43 %
+Wind Speed: 5.2 km/h
