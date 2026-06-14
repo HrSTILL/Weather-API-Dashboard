@@ -1,0 +1,32 @@
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Testing / cache
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# OS files
+.DS_Store
+Thumbs.db
